@@ -35,11 +35,23 @@ const SummarizePage = () => {
 
   // Define custom renderers for Markdown elements using Tailwind
   const markdownComponents = {
+    // eslint-disable-next-line jsx-a11y/heading-has-content
     h1: ({node, ...props}) => <h1 className="text-2xl font-bold mb-4" {...props} />,
+    // eslint-disable-next-line jsx-a11y/heading-has-content
     h2: ({node, ...props}) => <h2 className="text-xl font-semibold mb-3" {...props} />,
+    // eslint-disable-next-line jsx-a11y/heading-has-content
     h3: ({node, ...props}) => <h3 className="text-lg font-semibold mb-2" {...props} />,
+    // eslint-disable-next-line jsx-a11y/heading-has-content
+    h4: ({node, ...props}) => <h4 className="text-md font-semibold mb-1.5" {...props} />,
+    // eslint-disable-next-line jsx-a11y/heading-has-content
+    h5: ({node, ...props}) => <h5 className="text-sm font-semibold mb-1" {...props} />,
+    // eslint-disable-next-line jsx-a11y/heading-has-content
+    h6: ({node, ...props}) => <h6 className="text-xs font-semibold mb-1" {...props} />,
+    // eslint-disable-next-line jsx-a11y/heading-has-content
     p: ({node, ...props}) => <p className="mb-3 leading-relaxed" {...props} />, 
+    // eslint-disable-next-line jsx-a11y/heading-has-content
     ol: ({node, ...props}) => <ol className="list-decimal ml-6 mb-3" {...props} />, 
+    // eslint-disable-next-line jsx-a11y/heading-has-content
     ul: ({node, ...props}) => <ul className="list-disc ml-6 mb-3" {...props} />,    
     li: ({node, ...props}) => <li className="mb-1" {...props} />,                   
     strong: ({node, ...props}) => <strong className="font-semibold" {...props} />, 
