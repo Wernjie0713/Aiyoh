@@ -1,0 +1,52 @@
+/* Custom theme styles */
+
+/* Button hover effects */
+.bg-accent:hover {
+  background-color: #FF8533 !important; /* Slightly lighter shade of accent orange */
+}
+
+/* Accent text for important elements */
+.text-accent {
+  color: #FF6600 !important;
+}
+
+/* Gradient backgrounds using the new theme */
+.bg-gradient-accent {
+  background: linear-gradient(135deg, #FF6600 0%, #FF8533 100%);
+}
+
+/* Card highlights */
+.card-highlight {
+  border-color: #FF6600 !important;
+  box-shadow: 0 0 10px rgba(255, 102, 0, 0.2);
+}
+
+/* Ensure dark background for primary-lighter */
+.bg-primary-lighter {
+  background-color: #121212;
+}
+
+/* Accent glowing effect for focus elements */
+.focus-glow:focus {
+  box-shadow: 0 0 0 3px rgba(255, 102, 0, 0.3);
+  border-color: #FF6600;
+}
+
+/* Progress bars with accent */
+.progress-accent {
+  background-color: #FF6600;
+}
+
+/* Border colors */
+.border-accent {
+  border-color: #FF6600 !important;
+}
+
+/* Hover states */
+.hover\:border-accent:hover {
+  border-color: #FF6600;
+}
+
+.hover\:bg-accent:hover {
+  background-color: #FF8533;
+} 

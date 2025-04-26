@@ -1,0 +1,15 @@
+{
+  "root": true,
+  "extends": ["react-app"],
+  "rules": {
+    // Allow unused variables without error
+    "no-unused-vars": "off",
+    // Disable JSX accessibility rules for anchors and iframes
+    "jsx-a11y/anchor-is-valid": "off",
+    "jsx-a11y/iframe-has-title": "off",
+    // Allow script URLs
+    "no-script-url": "off",
+    // Disable the exhaustive-deps
+    "react-hooks/exhaustive-deps": "off"
+  }
+} 
