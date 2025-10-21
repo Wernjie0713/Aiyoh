@@ -108,7 +108,7 @@ const ChatPage = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            Let <span className="text-accent">Aiyoh</span> Help You Study Smarter
+            Let <span className="text-accent">AiThink</span> Help You Study Smarter
           </motion.h1>
           
           <motion.p 

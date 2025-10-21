@@ -12,7 +12,7 @@ const About = () => {
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2 md:pr-8 mb-8 md:mb-0">
             <p className="mb-4 text-lg font-semibold text-accent">
-              How Aiyoh benefits you:
+              How AiThink benefits you:
             </p>
             <ul className="space-y-4">
               <li className="flex items-start">
@@ -43,10 +43,10 @@ const About = () => {
           </div>
           <div className="md:w-1/2">
             <p className="mb-6">
-            Aiyoh is revolutionizing education by addressing one of the biggest challenges students face: <strong className="text-accent">procrastination</strong>. Our platform combines advanced AI technology with proven engagement techniques to help you stay motivated and focused on your academic goals.
+            AiThink is revolutionizing education by addressing one of the biggest challenges students face: <strong className="text-accent">procrastination</strong>. Our platform combines advanced AI technology with proven engagement techniques to help you stay motivated and focused on your academic goals.
             </p>
             <p className="mb-6">
-              Whether you're struggling with difficult concepts, need help organizing your study schedule, or simply want to make learning more engaging, Aiyoh's intelligent systems adapt to your unique learning style and needs.
+              Whether you're struggling with difficult concepts, need help organizing your study schedule, or simply want to make learning more engaging, AiThink's intelligent systems adapt to your unique learning style and needs.
             </p>
             <div className="space-y-2 mb-6">
               <a href="#" className="text-accent hover:text-blue-400 block flex items-center">

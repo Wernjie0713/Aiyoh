@@ -39,7 +39,7 @@ const Header = () => {
       <div className="container mx-auto px-4 lg:px-12 py-3 flex items-center">
         {/* Logo */}
         <Link to="/" className="flex items-center mr-6">
-          <img src="/assets/logo/logo.png" alt="Aiyoh" className="h-12" />
+          <img src="/assets/logo/logo.png" alt="AiThink" className="h-12" />
         </Link>
         {/* Centered Navigation */}
         <nav className="hidden md:flex flex-1 justify-center items-center space-x-6">
@@ -49,7 +49,7 @@ const Header = () => {
             <>  
               <Link to="/courses" className={`nav-link text-white hover:text-accent font-medium ${location.pathname === '/courses' ? 'text-accent font-bold' : ''}`}>Courses</Link>
               <Link to="/dashboard" className={`nav-link text-white hover:text-accent font-medium ${location.pathname === '/dashboard' ? 'text-accent font-bold' : ''}`}>Dashboard</Link>
-              <Link to="/chat" className={`nav-link text-white hover:text-accent font-medium ${location.pathname === '/chat' ? 'text-accent font-bold' : ''}`}>Aiyoh Assistant</Link>
+              <Link to="/chat" className={`nav-link text-white hover:text-accent font-medium ${location.pathname === '/chat' ? 'text-accent font-bold' : ''}`}>AiThink Assistant</Link>
             </>
           )}
         </nav>
