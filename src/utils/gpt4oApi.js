@@ -3,11 +3,11 @@
  * and processing user learning input.
  */
 
-// GitHub AI API configuration
-const GITHUB_TOKEN = "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";
+// GitHub AI API configuration - using environment variables
+const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
 const API_ENDPOINT = "https://models.inference.ai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2023-03-15-preview";
-const API_KEY = "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";
-const MODEL = "gpt-4o";
+const API_KEY = process.env.REACT_APP_OPENAI_API_KEY;
+const MODEL = process.env.REACT_APP_OPENAI_MODEL || "gpt-4o";
 
 /**
  * Processes user learning input with GPT-4O to understand learning context
