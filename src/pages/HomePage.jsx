@@ -55,7 +55,7 @@ const HomePage = () => {
                 </ScrollReveal>
               </div>
               <p className="text-xl text-gray-300 mb-8 max-w-lg" data-aos="fade-up" data-aos-delay="300">
-              AiThink helps you overcome procrastination with personalized AI assistance, gamified rewards, and adaptive learning paths.
+              Aiyoh helps you overcome procrastination with personalized AI assistance, gamified rewards, and adaptive learning paths.
               </p>
               <div className="flex flex-wrap gap-4" data-aos="fade-up" data-aos-delay="400">
                 <Link
@@ -100,7 +100,7 @@ const HomePage = () => {
                 <div className="relative">
                   <img
                     src="/assets/img/hero-img.png"
-                    alt="AiThink"
+                    alt="Aiyoh"
                     className="w-full max-w-md relative z-10 rounded-2xl"
                   />
                 </div>
@@ -270,7 +270,7 @@ const HomePage = () => {
             What Our Students Say
           </ScrollReveal>
           <p className="text-lg text-gray-300 max-w-3xl mx-auto">
-            Join thousands of satisfied students who have transformed their study habits with AiThink
+            Join thousands of satisfied students who have transformed their study habits with Aiyoh
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
             {[
@@ -278,13 +278,13 @@ const HomePage = () => {
                 name: "Sarah Johnson",
                 role: "Computer Science Student",
                 image: "/assets/img/Profile.png",
-                quote: "AiThink helped me overcome my procrastination issues. The AI tutor is like having a personal teacher available 24/7."
+                quote: "Aiyoh helped me overcome my procrastination issues. The AI tutor is like having a personal teacher available 24/7."
               },
               {
                 name: "Michael Chen",
                 role: "Engineering Major",
                 image: "/assets/img/Profile.png",
-                quote: "The gamified system keeps me motivated. I've improved my grades significantly since I started using AiThink."
+                quote: "The gamified system keeps me motivated. I've improved my grades significantly since I started using Aiyoh."
               },
               {
                 name: "Jessica Patel",
@@ -334,7 +334,7 @@ const HomePage = () => {
               Ready to Transform Your Learning?
             </ScrollReveal>
             <p className="text-xl mb-8 max-w-2xl mx-auto">
-              Join AiThink today and experience the future of education with our AI-powered learning platform.
+              Join Aiyoh today and experience the future of education with our AI-powered learning platform.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link

@@ -6,13 +6,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { GoogleOAuthProvider } from '@react-oauth/google';
 
-// Debug: Log the Google Client ID to verify it's loaded correctly
-console.log('Google Client ID:', process.env.REACT_APP_GOOGLE_CLIENT_ID);
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <GoogleOAuthProvider clientId={process.env.REACT_APP_GOOGLE_CLIENT_ID}>
+    <GoogleOAuthProvider clientId="601421417581-6cbd6fk1pvd04fjbsnvf539jnj7tmr8i.apps.googleusercontent.com">
       <App />
     </GoogleOAuthProvider>
   </React.StrictMode>

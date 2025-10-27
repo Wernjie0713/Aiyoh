@@ -88,10 +88,10 @@ const Login = ({ isRegister = false }) => {
           <div className="container mx-auto px-6 relative z-10">
             <div className="mb-10 text-center" data-aos="fade-down">
               <Link to="/" className="inline-block">
-                <img src="/assets/logo/logo.png" alt="AiThink" className="h-20 mx-auto" />
+                <img src="/assets/logo/logo.png" alt="Aiyoh" className="h-20 mx-auto" />
               </Link>
               <h1 className="text-3xl md:text-4xl font-bold text-white mt-6">
-                {isRegisterPage ? 'Create Your AiThink Account' : 'Welcome to AiThink'}
+                {isRegisterPage ? 'Create Your Aiyoh Account' : 'Welcome to Aiyoh'}
               </h1>
               <p className="text-lg text-gray-300 max-w-md mx-auto mt-3">
                 {isRegisterPage 
@@ -203,7 +203,7 @@ const Login = ({ isRegister = false }) => {
                       </>
                     ) : (
                       <>
-                        <p className="text-gray-300 mb-4">New to AiThink? Create an account to get started.</p>
+                        <p className="text-gray-300 mb-4">New to Aiyoh? Create an account to get started.</p>
                         <Link
                           to="/register"
                           className="inline-flex items-center bg-accent hover:bg-blue-700 text-black  px-6 py-3 rounded-full font-medium transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
@@ -227,7 +227,7 @@ const Login = ({ isRegister = false }) => {
           <div className="container mx-auto px-6">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="text-gray-400 text-sm mb-4 md:mb-0">
-                &copy; {new Date().getFullYear()} AiThink. All Rights Reserved.
+                &copy; {new Date().getFullYear()} Aiyoh. All Rights Reserved.
               </div>
               <div className="flex space-x-6">
                 <p className="text-gray-400 hover:text-white text-sm cursor-pointer">Privacy Policy</p>
